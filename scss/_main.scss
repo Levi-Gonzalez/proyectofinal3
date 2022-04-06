@@ -1,0 +1,152 @@
+main {
+    display: grid;
+    
+    .tituloprincipal {
+        background-color: $aqua;
+        text-align: center;
+        padding: 10px;
+        font-size: 30px;
+        font-family: $letra;
+        margin: 0;    
+    }
+    .galerias{
+        display: flex;
+    }
+    .galerias p{
+        background-color:$colorletra;
+        text-align: center;
+        color:beige;    
+        margin: 0;    
+
+    }
+    h1{
+        background-color:$aqua;
+        margin: 0;
+        padding: 1rem;
+        text-align: center;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+     h2{
+       margin: 0;
+       padding: 2rem;
+       background-color:$aqua;
+       color:$letra;
+       text-align: center;  
+       font-family:$letra;
+       font-size: 35px;
+       border-bottom: 5px solid;
+    }
+    .segundotitulo{
+        font-family: $letra;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        margin-left: 3rem;
+
+    }
+    .imagenes{
+        display: grid;
+    } 
+    h3{
+        padding: 0;
+        font-family: $letra;
+    }
+    .programacion{
+        padding: 2rem;
+        margin:0;
+        border-bottom: 1px solid $blackclaro;
+    }
+    // 2do uso de extend
+    .programacion h4{
+        @extend h4;
+        text-align: center;
+        margin-left: 42rem;
+        text-decoration: underline;
+    }
+    .programacion p{
+        margin-top: 18px;
+        font-size: 18px;
+        font-weight: 400;
+    } 
+    .programacion img{
+        margin-top: 1rem;
+        margin-right:1rem;
+        float: left;
+        border-radius: 20px;
+        border: 3px solid $aqua; 
+    }
+    .estudio{
+        margin: 2rem;
+        border-bottom: 1px solid $blackclaro;
+    }
+    // 1er uso de extend
+    .estudio h4{
+        margin-left: 10rem;
+        text-decoration: underline;
+        @extend h4
+    }
+    
+    .estudio img{
+        float: right;
+        margin-left: 25px;
+        @include border;
+    }
+    // segundo uso de mixin
+    .estudio p{
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .empleo{
+    margin: 2rem;
+    }
+    .empleo h4{
+        text-align:center;
+        margin-left: 40rem;
+        font-size: 30px;
+        font-family: $letra;
+        text-decoration: underline;
+    }
+    // uso de Mixin
+    .empleo img{
+        float: left;
+        margin-right:25px;
+        @include border;
+    }
+    .empleo p{
+        margin-top: 18px;
+        font-size: 18px;
+        font-weight: 400;
+
+    }
+    // seccion servicios
+    .servsubt{
+        background-color:$aqua;
+        margin: 0;
+    }
+    .servtitulo{
+        background-color:$white;    
+    }
+    // 3er uso de extemd
+    .titulolenguajes{
+    @extend .servtitulo;
+    }
+    // 4to uso de extend
+    .carousel{
+    @extend .servtitulo;
+    margin: 4rem;
+    }
+    .carousel-inner{
+        background-color: $black;
+    }
+    .flechas{
+        color: $youtube;
+    }
+    // cierre seccion servicios
+    // seccion contacto
+    .form{
+        display:flex;
+        align-items: center;
+    }
+    // ciere seccion contacto
+
+}   

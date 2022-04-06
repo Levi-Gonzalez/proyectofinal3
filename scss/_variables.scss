@@ -1,0 +1,22 @@
+// colores 
+$aqua:#10bbbb;
+$subtitulo:#90e1e7;
+$white:#ffffff;
+$blue:#010138;
+$black:#000000;
+$colorletra:#131212;
+$blackclaro:#2927277a;
+// colores de redes
+$insta:linear-gradient(35deg, #515bd4 0%, #8134af 18%, #feda77 43%, #fab858 62%, #dd2a7b 83%);
+$whapp:#079607;
+$twitter:#6666e9;
+$youtube:#ff0000;
+$linkedin:#0101a5;
+
+// estilos de letras
+$letra: 'PT Sans Narrow', sans-serif;
+// mixin
+@mixin border {
+    border-radius:20px;
+    border: 2px solid $aqua; 
+}

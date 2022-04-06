@@ -1,0 +1,23 @@
+footer{
+    
+    color: white;
+    background-color: $colorletra;
+    padding: 2rem; 
+    text-align: center;
+    font-size: 2rem;
+    
+    .redes{
+    display: flex;
+    justify-content: space-around;    
+    }
+    li{
+        list-style: none;
+    }
+    a{  color:$white;
+        text-decoration: none;    
+    }
+    h5{
+        color:$white;
+    }
+
+}

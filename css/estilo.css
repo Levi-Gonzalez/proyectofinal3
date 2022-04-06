@@ -1,0 +1,211 @@
+.logo {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+}
+
+main .tituloprincipal {
+  background-color: #10bbbb;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  font-family: "PT Sans Narrow", sans-serif;
+  margin: 0;
+}
+
+main .galerias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .galerias p {
+  background-color: #131212;
+  text-align: center;
+  color: beige;
+  margin: 0;
+}
+
+main h1 {
+  background-color: #10bbbb;
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+main h2 {
+  margin: 0;
+  padding: 2rem;
+  background-color: #10bbbb;
+  color: "PT Sans Narrow", sans-serif;
+  text-align: center;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 35px;
+  border-bottom: 5px solid;
+}
+
+main .segundotitulo {
+  font-family: "PT Sans Narrow", sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+}
+
+main .imagenes {
+  display: -ms-grid;
+  display: grid;
+}
+
+main h3 {
+  padding: 0;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+main .programacion {
+  padding: 2rem;
+  margin: 0;
+  border-bottom: 1px solid #2927277a;
+}
+
+main .programacion h4 {
+  text-align: center;
+  margin-left: 42rem;
+  text-decoration: underline;
+}
+
+main .programacion p {
+  margin-top: 18px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+main .programacion img {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  float: left;
+  border-radius: 20px;
+  border: 3px solid #10bbbb;
+}
+
+main .estudio {
+  margin: 2rem;
+  border-bottom: 1px solid #2927277a;
+}
+
+main .estudio h4 {
+  margin-left: 10rem;
+  text-decoration: underline;
+}
+
+main .estudio img {
+  float: right;
+  margin-left: 25px;
+  border-radius: 20px;
+  border: 2px solid #10bbbb;
+}
+
+main .estudio p {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+main .empleo {
+  margin: 2rem;
+}
+
+main .empleo h4 {
+  text-align: center;
+  margin-left: 40rem;
+  font-size: 30px;
+  font-family: "PT Sans Narrow", sans-serif;
+  text-decoration: underline;
+}
+
+main .empleo img {
+  float: left;
+  margin-right: 25px;
+  border-radius: 20px;
+  border: 2px solid #10bbbb;
+}
+
+main .empleo p {
+  margin-top: 18px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+main .servsubt {
+  background-color: #10bbbb;
+  margin: 0;
+}
+
+main .servtitulo, main .titulolenguajes, main .carousel {
+  background-color: #ffffff;
+}
+
+main .carousel {
+  margin: 4rem;
+}
+
+main .carousel-inner {
+  background-color: #000000;
+}
+
+main .flechas {
+  color: #ff0000;
+}
+
+main .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer {
+  color: white;
+  background-color: #131212;
+  padding: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+footer .redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer h5 {
+  color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+/*# sourceMappingURL=estilo.css.map */
